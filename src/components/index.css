@@ -1,0 +1,56 @@
+#hero {
+	background-image: url('../images/brainstorming.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	margin-top: -92px;
+	margin-bottom: 10px;
+	height: 100vh;
+	z-index: -10;
+}
+#hero-overlay {
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index:-5;
+}
+.jumbotron {
+  display: grid;
+  grid-template-columns: 700px 200px;
+  grid-template-rows: 600px 300px;
+  width: 100%;
+  place-items: center;
+  margin-top: 0 auto;
+  padding-left: 100px;
+ }
+.jumbotron--content {
+    z-index: 20;
+    color: #fff;
+  }
+  .jumbotron--content h1 {
+  	margin-left: 30px;
+  	margin-bottom:10px;
+  }
+
+ @media only screen and (max-width: 600px) {
+    .jumbotron {
+    	display: grid;
+    	grid-template-columns: 500px;
+    	grid-template-rows: 600px;
+    	padding-left: 0;
+    	place-items:center;
+    	justify-content: center;
+    }
+    .jumbotron--content h1 {
+    	margin-bottom: 10px;
+    	text-align: center;
+    }
+    .jumbotron--content p {
+    	text-align: center;
+    }
+}
