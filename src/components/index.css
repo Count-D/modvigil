@@ -40,7 +40,7 @@
  @media only screen and (max-width: 600px) {
     .jumbotron {
     	display: grid;
-    	grid-template-columns: 500px;
+    	grid-template-columns: 400px;
     	grid-template-rows: 600px;
     	padding-left: 0;
     	place-items:center;
