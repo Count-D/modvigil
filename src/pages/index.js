@@ -32,10 +32,12 @@ const IndexPage = () => (
 	</div>
 
  <div class="container">
+ <Layout>
     <WhatIs />
     <Effect />
     <Safety />
     <Interesting />
+    </Layout>
   	</div>
 
     </div>
