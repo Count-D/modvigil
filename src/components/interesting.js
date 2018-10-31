@@ -1,9 +1,9 @@
 import React from 'react'
 import '../components/interesting.css'
-import soldiers from '../images/soldiers.jpg'
+import soldiers from '../images/soldiers.png'
 import programer from  '../images/programer.jpg'
 import hirurg from  '../images/hirurg.jpg'
-import bredli from  '../images/bredli.png'
+import bredli from  '../images/bredli.jpg'
 
 const Interesting = () => (
 	<div>
