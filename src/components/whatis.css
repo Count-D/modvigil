@@ -1,45 +1,8 @@
 h2 {
 	text-align: center;
-	margin-top: 20px;
+	padding: 10px;
 }
-.whatis {
-	display: grid;
-	grid-template-columns: 300px 700px;
+
+.whatis p {
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	justify-content: center;
-	justify-items:center;
-}
-
-
-.modvigil {
-	background-image: url('../images/modvigil.png');
-	background-repeat: no-repeat;
-	background-position: -150px 0;
-	width: 210px;
-	height: 210px;
-	border-radius: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-	.whatis {
-		display: grid;
-		grid-template-columns: 400px;
-		grid-template-rows: 230px 100px;
-		margin: 0 auto;
-		margin-bottom: 150px;
-	}
-    .modvigil {
-    	background-image: url('../images/modvigil.png');
-		background-repeat: no-repeat;
-		background-position: -150px -100;
-		width: 500px;
-		height: auto;
-		border-radius: 0;
-		margin-bottom: 10px;
-    }
-    hr {
-    	display: none;
-    }
 }

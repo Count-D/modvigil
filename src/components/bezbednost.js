@@ -3,6 +3,7 @@ import React from 'react'
 const Safety = () => (
 	<div>
 	<h2>Da li je Modafinil Bezbedan?</h2>
+	<div class="container">
 	<ul>
 	<li>
 <b>Nije Stimulant.</b> Modafinil deluje kao Eugeroik tj. Kao sredstvo za podsticaj budnosti i koncentracije. Ne čini vas nervoznim i napetim.
@@ -17,6 +18,7 @@ const Safety = () => (
 <b>Ne preporučuje se</b> osobama podložnim alergijama i osobama sa srčanim problemima.
 </li>
 	</ul>
+	</div>
 	<hr />
 	</div>
 	)

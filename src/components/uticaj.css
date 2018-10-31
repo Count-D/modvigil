@@ -2,48 +2,8 @@ h2 {
 	text-align: center;
 	margin-top: 20px;
 }
-.uticaj {
-	display: grid;
-	grid-template-columns: 700px 300px;
+
+p {
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	justify-content: center;
-	justify-items:center;
-}
 
-ul {
-	padding: 10px;
-	list-style: none;
-
-}
-
-.studenti {
-	background-image: url('../images/studenti.png');
-	background-repeat: no-repeat;
-	background-position: -150px 0;
-	width: 210px;
-	height: 210px;
-	border-radius: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-	.uticaj {
-		display: grid;
-		grid-template-columns: 500px;
-		grid-template-rows: 230px 100px;
-		margin: 0 auto;
-		margin-bottom: 150px;
-	}
-    .studenti {
-    	background-image: url('../images/studenti.png');
-		background-repeat: no-repeat;
-		width: 500px;
-		height: 200px;
-		border-radius: 0;
-		margin-bottom: 10px;
-    }
-    hr {
-    	display: none;
-    }
 }

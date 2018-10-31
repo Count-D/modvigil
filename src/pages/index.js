@@ -9,30 +9,35 @@ import Navbar from '../components/navbar.js'
 import Interesting from '../components/interesting'
 import Footer from '../components/footer'
 import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import '../components/index.css'
 
 const IndexPage = () => (
 	<div>
-      <Navbar />
-      <hr />
-	<div id="hero">
-		<div id="hero-overlay"></div>
+     
+      
+	<div class="bg">
+	<div id="hero-overlay"></div>
 		<div class="jumbotron">
-  <div class="jumbotron--content">
-  	<h1>Poručite Modafinil!</h1>
-    <p>Sredstvo za povećanje kognitivnih sposobnosti. Pomaže studentima pri učenju ili pri radu u poslovima u kojima je potreban visok nivo Koncentracije.</p></div>
+  <h1 class="display-4">Modafinil</h1>
+  <p class="lead">Nešto potpuno novo na domaćem tržištu suplemenata!</p>
+  <hr class="my-4" />
+  <p>Uklonite sve Distrakcije i težnju za Prokrastinacijom. Idealno za studente kao i ostale ljude kojima je potreban visok nivo Koncentracije</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Saznaj Više</a>
+  </p>
 </div>
 	</div>
 
-  <Layout>
+ <div class="container">
     <WhatIs />
     <Effect />
     <Safety />
     <Interesting />
-  </Layout>
- 	<Footer />
+  	</div>
+
     </div>
 )
 
